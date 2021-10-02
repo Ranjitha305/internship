@@ -1,6 +1,20 @@
-<html>
-  <head>Hello World!!!</head>
-  <body> Sample text presentation</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Static</title>
+    <script src="https://unpkg.com/browse/react@16.7.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/browse/react-dom@16.7.0/umd/react-dom.development.js"></script>
+</head>
+<body>
+    <div id="my-react-app">
 
-
+    </div>
+    <script>
+        var hello1 = React.createElement("h1",{},"Welcome to the Future");
+        ReactDOM.render(hello1,document.getElementById('my-react-app'));
+     </script>
+</body>
 </html>
